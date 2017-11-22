@@ -1,0 +1,853 @@
+
+Gurobi 6.0.3 (linux64) logging started Tue Jun 23 00:52:34 2015
+
+Optimize a model with 28940 rows, 23511 columns and 195227 nonzeros
+Model has 305 quadratic constraints
+Coefficient statistics:
+  Matrix range    [5e-06, 1e+10]
+  Objective range [1e+00, 3e+01]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+10]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Presolve removed 12281 rows and 14 columns
+Presolve time: 0.53s
+Presolved: 17352 rows, 23728 columns, 82373 nonzeros
+Variable types: 11 continuous, 23717 integer (23717 binary)
+
+Root relaxation: objective -3.298909e+03, 2588 iterations, 0.25 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -3298.9091    0   35          - -3298.9091      -     -    1s
+H    0     0                    -3264.000000 -3298.9091  1.07%     -    1s
+     0     0 -3298.9091    0  333 -3264.0000 -3298.9091  1.07%     -    1s
+H    0     0                    -3265.000000 -3298.9091  1.04%     -    1s
+     0     0 -3298.9091    0   36 -3265.0000 -3298.9091  1.04%     -    1s
+H    0     0                    -3296.000000 -3298.9091  0.09%     -    1s
+     0     0 -3298.9091    0   83 -3296.0000 -3298.9091  0.09%     -    2s
+H    0     0                    -3297.000000 -3298.9091  0.06%     -    2s
+     0     0 -3298.9091    0   95 -3297.0000 -3298.9091  0.06%     -    3s
+     0     0 -3298.9091    0  157 -3297.0000 -3298.9091  0.06%     -    3s
+     0     0 -3298.9091    0  135 -3297.0000 -3298.9091  0.06%     -    4s
+     0     0 -3298.9091    0  115 -3297.0000 -3298.9091  0.06%     -    5s
+     0     0 -3298.9091    0  121 -3297.0000 -3298.9091  0.06%     -    5s
+     0     0 -3298.9091    0  121 -3297.0000 -3298.9091  0.06%     -    6s
+     0     2 -3298.9091    0   92 -3297.0000 -3298.9091  0.06%     -    6s
+    49    18 -3298.8410    4  138 -3297.0000 -3298.9091  0.06%   390   10s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 76
+  Implied bound: 7
+  Clique: 146
+  MIR: 17
+  Zero half: 17
+
+Explored 196 nodes (70363 simplex iterations) in 13.41 seconds
+Thread count was 1 (of 2 available processors)
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -3.297000000000e+03, best bound -3.297000000000e+03, gap 0.0%
+
+Gurobi 6.0.3 (linux64) logging started Tue Jun 23 01:13:04 2015
+
+Optimize a model with 28940 rows, 23511 columns and 195227 nonzeros
+Model has 305 quadratic constraints
+Coefficient statistics:
+  Matrix range    [5e-06, 1e+10]
+  Objective range [1e+00, 3e+01]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+10]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Presolve removed 12281 rows and 14 columns
+Presolve time: 0.52s
+Presolved: 17352 rows, 23728 columns, 82373 nonzeros
+Variable types: 11 continuous, 23717 integer (23717 binary)
+
+Root relaxation: objective -3.298909e+03, 2588 iterations, 0.24 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -3298.9091    0   35          - -3298.9091      -     -    1s
+H    0     0                    -3264.000000 -3298.9091  1.07%     -    1s
+     0     0 -3298.9091    0  333 -3264.0000 -3298.9091  1.07%     -    1s
+H    0     0                    -3265.000000 -3298.9091  1.04%     -    1s
+     0     0 -3298.9091    0   36 -3265.0000 -3298.9091  1.04%     -    1s
+H    0     0                    -3296.000000 -3298.9091  0.09%     -    1s
+     0     0 -3298.9091    0   83 -3296.0000 -3298.9091  0.09%     -    2s
+H    0     0                    -3297.000000 -3298.9091  0.06%     -    2s
+     0     0 -3298.9091    0   95 -3297.0000 -3298.9091  0.06%     -    2s
+     0     0 -3298.9091    0  157 -3297.0000 -3298.9091  0.06%     -    3s
+     0     0 -3298.9091    0  135 -3297.0000 -3298.9091  0.06%     -    4s
+     0     0 -3298.9091    0  115 -3297.0000 -3298.9091  0.06%     -    4s
+     0     0 -3298.9091    0  121 -3297.0000 -3298.9091  0.06%     -    5s
+     0     0 -3298.9091    0  121 -3297.0000 -3298.9091  0.06%     -    5s
+     0     2 -3298.9091    0   92 -3297.0000 -3298.9091  0.06%     -    6s
+    52    21 -3298.8410    7  149 -3297.0000 -3298.9091  0.06%   368   10s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 76
+  Implied bound: 7
+  Clique: 146
+  MIR: 17
+  Zero half: 17
+
+Explored 196 nodes (70363 simplex iterations) in 13.33 seconds
+Thread count was 1 (of 2 available processors)
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -3.297000000000e+03, best bound -3.297000000000e+03, gap 0.0%
+
+Gurobi 6.0.3 (linux64) logging started Mon Jul 20 10:47:53 2015
+
+
+Gurobi 6.0.3 (linux64) logging started Mon Jul 20 10:52:35 2015
+
+
+Gurobi 6.0.3 (linux64) logging started Mon Jul 20 10:52:41 2015
+
+Optimize a model with 22868 rows, 19218 columns and 108845 nonzeros
+Model has 171 quadratic constraints
+Coefficient statistics:
+  Matrix range    [5e-06, 1e+10]
+  Objective range [1e+00, 2e+01]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+10]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 10297 rows and 1317 columns
+Presolve time: 0.30s
+Presolved: 12706 rows, 17946 columns, 66019 nonzeros
+Variable types: 5 continuous, 17941 integer (17941 binary)
+
+Root relaxation: objective -3.738000e+02, 412 iterations, 0.03 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -373.80000    0    1          - -373.80000      -     -    0s
+H    0     0                    -373.0000000 -373.80000  0.21%     -    0s
+
+Explored 0 nodes (796 simplex iterations) in 0.57 seconds
+Thread count was 1 (of 2 available processors)
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -3.730000000000e+02, best bound -3.730000000000e+02, gap 0.0%
+
+Gurobi 6.0.3 (linux64) logging started Mon Aug 10 22:52:36 2015
+
+Optimize a model with 5577 rows, 4345 columns and 41624 nonzeros
+Model has 83 quadratic constraints
+Coefficient statistics:
+  Matrix range    [5e-06, 1e+10]
+  Objective range [1e+00, 9e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+10]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 2578 rows and 526 columns
+Presolve time: 0.06s
+Presolved: 3044 rows, 3834 columns, 14121 nonzeros
+Variable types: 3 continuous, 3831 integer (3831 binary)
+Found heuristic solution: objective -894.0000000
+
+Root relaxation: objective -8.986667e+02, 526 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -898.66667    0   11 -894.00000 -898.66667  0.52%     -    0s
+H    0     0                    -898.0000000 -898.66667  0.07%     -    0s
+
+Explored 0 nodes (829 simplex iterations) in 0.14 seconds
+Thread count was 1 (of 2 available processors)
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -8.980000000000e+02, best bound -8.980000000000e+02, gap 0.0%
+
+Gurobi 6.0.3 (linux64) logging started Mon Aug 10 22:53:21 2015
+
+Optimize a model with 20809 rows, 13263 columns and 413898 nonzeros
+Model has 113 quadratic constraints
+Coefficient statistics:
+  Matrix range    [5e-06, 1e+10]
+  Objective range [1e+00, 2e+01]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+10]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Modified 5160 Q diagonals
+Presolve removed 8313 rows and 1008 columns
+Presolve time: 3.12s
+Presolved: 12631 rows, 12300 columns, 123707 nonzeros
+Variable types: 5 continuous, 12295 integer (12295 binary)
+
+Root relaxation: objective -1.474380e+04, 7858 iterations, 1.41 seconds
+Total elapsed time = 8.02s
+Total elapsed time = 11.48s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -14743.800    0 2188          - -14743.800      -     -   12s
+     0     0 -14651.106    0 1884          - -14651.106      -     -   20s
+     0     0 -14579.348    0 2642          - -14579.348      -     -   30s
+     0     0 -14197.342    0 5194          - -14197.342      -     -   47s
+     0     0 -14193.394    0 5045          - -14193.394      -     -   62s
+     0     0 -14188.349    0 5110          - -14188.349      -     -   78s
+     0     0 -14180.775    0 5127          - -14180.775      -     -   95s
+     0     0 -14180.018    0 5153          - -14180.018      -     -  116s
+     0     0 -14168.249    0 4952          - -14168.249      -     -  155s
+     0     0 -14164.431    0 5159          - -14164.431      -     -  196s
+
+Gurobi 6.0.3 (linux64) logging started Tue Aug 18 13:22:56 2015
+
+Optimize a model with 28940 rows, 23511 columns and 195227 nonzeros
+Model has 305 quadratic constraints
+Coefficient statistics:
+  Matrix range    [5e-06, 1e+10]
+  Objective range [1e+00, 3e+01]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+10]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Modified 1452 Q diagonals
+Presolve removed 12281 rows and 14 columns
+Presolve time: 0.59s
+Presolved: 17352 rows, 23728 columns, 82373 nonzeros
+Variable types: 11 continuous, 23717 integer (23717 binary)
+
+Root relaxation: objective -3.298909e+03, 2588 iterations, 0.25 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -3298.9091    0   35          - -3298.9091      -     -    1s
+H    0     0                    -3264.000000 -3298.9091  1.07%     -    1s
+     0     0 -3298.9091    0  333 -3264.0000 -3298.9091  1.07%     -    1s
+H    0     0                    -3265.000000 -3298.9091  1.04%     -    1s
+     0     0 -3298.9091    0   36 -3265.0000 -3298.9091  1.04%     -    1s
+H    0     0                    -3296.000000 -3298.9091  0.09%     -    2s
+     0     0 -3298.9091    0   83 -3296.0000 -3298.9091  0.09%     -    2s
+H    0     0                    -3297.000000 -3298.9091  0.06%     -    2s
+     0     0 -3298.9091    0   95 -3297.0000 -3298.9091  0.06%     -    3s
+     0     0 -3298.9091    0  157 -3297.0000 -3298.9091  0.06%     -    3s
+     0     0 -3298.9091    0  135 -3297.0000 -3298.9091  0.06%     -    4s
+     0     0 -3298.9091    0  115 -3297.0000 -3298.9091  0.06%     -    4s
+     0     0 -3298.9091    0  121 -3297.0000 -3298.9091  0.06%     -    5s
+     0     0 -3298.9091    0  121 -3297.0000 -3298.9091  0.06%     -    6s
+     0     2 -3298.9091    0   92 -3297.0000 -3298.9091  0.06%     -    7s
+    48    17 -3298.9091    3  232 -3297.0000 -3298.9091  0.06%   372   10s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 76
+  Implied bound: 7
+  Clique: 146
+  MIR: 17
+  Zero half: 17
+
+Explored 196 nodes (70363 simplex iterations) in 13.61 seconds
+Thread count was 1 (of 2 available processors)
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -3.297000000000e+03, best bound -3.297000000000e+03, gap 0.0%
+
+Gurobi 6.0.3 (linux64) logging started Tue Aug 18 13:24:06 2015
+
+Optimize a model with 4899 rows, 4009 columns and 22086 nonzeros
+Model has 83 quadratic constraints
+Coefficient statistics:
+  Matrix range    [5e-06, 1e+10]
+  Objective range [1e+00, 9e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+10]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Modified 102 Q diagonals
+Presolve removed 2068 rows and 25 columns
+Presolve time: 0.06s
+Presolved: 2876 rows, 3999 columns, 10818 nonzeros
+Variable types: 0 continuous, 3999 integer (3999 binary)
+
+Root relaxation: objective -1.426667e+02, 218 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -142.66667    0    8          - -142.66667      -     -    0s
+     0     0 -142.66667    0  115          - -142.66667      -     -    0s
+     0     0 -142.66667    0   83          - -142.66667      -     -    0s
+     0     0 -142.66667    0   61          - -142.66667      -     -    0s
+     0     0 -142.66667    0   76          - -142.66667      -     -    1s
+     0     0 -142.66667    0   69          - -142.66667      -     -    1s
+     0     2 -142.66667    0   69          - -142.66667      -     -    1s
+   224   199 -140.98529   42   89          - -142.64660      -   118    5s
+H  376   202                    -140.0000000 -142.64396  1.89%   115    8s
+H  485    16                    -141.0000000 -142.64396  1.17%  96.1    8s
+   487    14     cutoff    4      -141.00000 -142.64395  1.17%   119   11s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 11
+  Clique: 29
+  MIR: 4
+  Zero half: 12
+  Mod-K: 1
+
+Explored 510 nodes (78200 simplex iterations) in 13.08 seconds
+Thread count was 1 (of 2 available processors)
+
+Solve interrupted (error code 10020)
+Best objective -1.410000000000e+02, best bound -1.420000000000e+02, gap 0.7092%
+
+Gurobi 6.0.3 (linux64) logging started Tue Aug 18 13:26:09 2015
+
+Optimize a model with 201 rows, 153 columns and 711 nonzeros
+Model has 16 quadratic constraints
+Coefficient statistics:
+  Matrix range    [5e-06, 1e+10]
+  Objective range [1e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+10]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Presolve removed 93 rows and 11 columns
+Presolve time: 0.00s
+Presolved: 126 rows, 148 columns, 357 nonzeros
+Variable types: 0 continuous, 148 integer (148 binary)
+
+Root relaxation: objective -2.250000e+01, 38 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  -22.50000    0    9          -  -22.50000      -     -    0s
+     0     0  -22.50000    0    1          -  -22.50000      -     -    0s
+     0     0  -22.33333    0    9          -  -22.33333      -     -    0s
+     0     0  -22.00000    0   27          -  -22.00000      -     -    0s
+     0     0  -22.00000    0    9          -  -22.00000      -     -    0s
+*    0     0               0     -22.0000000  -22.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 4
+  Clique: 8
+  MIR: 2
+
+Explored 0 nodes (90 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 2 available processors)
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -2.200000000000e+01, best bound -2.200000000000e+01, gap 0.0%
+
+Gurobi 6.0.3 (linux64) logging started Tue Aug 18 13:32:16 2015
+
+Optimize a model with 201 rows, 153 columns and 711 nonzeros
+Model has 16 quadratic constraints
+Coefficient statistics:
+  Matrix range    [5e-06, 1e+10]
+  Objective range [1e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+10]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Modified 20 Q diagonals
+Presolve removed 93 rows and 11 columns
+Presolve time: 0.01s
+Presolved: 126 rows, 148 columns, 357 nonzeros
+Variable types: 0 continuous, 148 integer (148 binary)
+
+Root relaxation: objective -2.250000e+01, 38 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  -22.50000    0    9          -  -22.50000      -     -    0s
+     0     0  -22.50000    0    1          -  -22.50000      -     -    0s
+     0     0  -22.33333    0    9          -  -22.33333      -     -    0s
+     0     0  -22.00000    0   27          -  -22.00000      -     -    0s
+     0     0  -22.00000    0    9          -  -22.00000      -     -    0s
+*    0     0               0     -22.0000000  -22.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 4
+  Clique: 8
+  MIR: 2
+
+Explored 0 nodes (90 simplex iterations) in 0.03 seconds
+Thread count was 1 (of 2 available processors)
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -2.200000000000e+01, best bound -2.200000000000e+01, gap 0.0%
+
+Gurobi 6.0.3 (linux64) logging started Wed Sep 16 19:37:21 2015
+
+
+Gurobi 6.0.3 (linux64) logging started Thu Sep 17 11:49:24 2015
+
+
+Gurobi 6.0.3 (linux64) logging started Thu Sep 17 11:50:10 2015
+
+
+Gurobi 6.0.3 (linux64) logging started Thu Sep 17 11:50:34 2015
+
+
+Gurobi 6.0.3 (linux64) logging started Thu Sep 17 11:50:41 2015
+
+
+Gurobi 6.0.3 (linux64) logging started Thu Sep 17 11:52:49 2015
+
+
+Gurobi 6.0.3 (linux64) logging started Thu Sep 17 11:53:33 2015
+
+Optimize a model with 5691 rows, 4345 columns and 42092 nonzeros
+Model has 83 quadratic constraints
+Coefficient statistics:
+  Matrix range    [5e-06, 1e+10]
+  Objective range [1e+00, 9e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+10]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 3155 rows and 991 columns
+Presolve time: 0.06s
+Presolved: 2581 rows, 3369 columns, 12168 nonzeros
+Variable types: 3 continuous, 3366 integer (3366 binary)
+Found heuristic solution: objective -894.0000000
+
+Root relaxation: objective -8.986667e+02, 454 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -898.66667    0   11 -894.00000 -898.66667  0.52%     -    0s
+H    0     0                    -898.0000000 -898.66667  0.07%     -    0s
+
+Explored 0 nodes (791 simplex iterations) in 0.13 seconds
+Thread count was 1 (of 2 available processors)
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -8.980000000000e+02, best bound -8.980000000000e+02, gap 0.0%
+
+Gurobi 6.0.3 (linux64) logging started Thu Sep 17 11:56:36 2015
+
+Optimize a model with 555 rows, 387 columns and 1919 nonzeros
+Model has 38 quadratic constraints
+Coefficient statistics:
+  Matrix range    [5e-06, 1e+10]
+  Objective range [1e+00, 1e+01]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+10]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 493 rows and 279 columns
+Presolve time: 0.00s
+Presolved: 146 rows, 136 columns, 452 nonzeros
+Variable types: 0 continuous, 136 integer (136 binary)
+Found heuristic solution: objective -40.0000000
+Found heuristic solution: objective -46.0000000
+
+Root relaxation: cutoff, 41 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0       -46.00000  -46.99995  2.17%     -    0s
+
+Explored 0 nodes (41 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 2 available processors)
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -4.600000000000e+01, best bound -4.600000000000e+01, gap 0.0%
